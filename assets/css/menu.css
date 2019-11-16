@@ -1,0 +1,81 @@
+.ul{
+    min-width: 50px;
+    float:left;
+    position: relative;
+    z-index: 400;
+    background:url(../images/menu_bg.png) repeat;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-family: Myriad Pro;    
+}
+.li{
+    position :absolute;
+    display: none;
+    left: 0;
+    z-index: 999;
+    width:200px;
+    padding-top: 0px;   
+    top: 40px;
+    padding-bottom: 0px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.ultop{
+    height:40px;
+    background:url(../images/menu_sep.png) no-repeat right;
+   
+}
+.home{
+    background: url(../images/home.png) no-repeat center;
+}
+.home:hover{
+    background: url(../images/home_but.png) no-repeat center;
+}
+.ultop:hover .li a{
+    color:#FFF;
+}
+.margin{
+    height: 15px;
+    background-color: rgba(24, 24, 24, 0) !important;
+    padding: 0px !important;    
+}
+.li a{
+    border-bottom:1px solid #000000;
+    background:url(../images/menu_bg.png) repeat;
+    
+}
+.li a:hover{
+    color:#494848 !important;
+    background: #FFF;
+}
+.ultop a{
+    color:#fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0px 12px 0px;
+}
+
+.ultop a:hover{
+    color:#494848;
+}
+
+.ultop:hover{
+    background-color: #FFF;
+    border-radius: 5px;    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color:#494848;    
+}
+
+.ultop:hover a{
+    color:#494848;
+}
+
+.ultop:hover > .li {
+    display: block;
+}

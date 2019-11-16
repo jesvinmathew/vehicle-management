@@ -1,0 +1,93 @@
+
+.blocks p {
+	margin-bottom:15px;
+	position:relative;
+	padding-top:10px;
+}
+
+.btn1 {
+	display:inline-block;
+	float:left;
+	font-size: 14px;
+    line-height: 16px;
+    padding: 8px 16px 14px 9px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #2b5f90;
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+.blocks label {
+	float:left;
+	width:100px;
+	line-height:37px;
+	text-align:right;
+	margin-right:15px;
+	font-weight:bold;
+	color:#666;
+}
+
+.blocks label.error,
+.blocks label.ok {
+position:absolute;
+z-index:1;
+top:-4px;
+left:110px;
+padding:5px 15px 5px 280px;
+/*reset label*/
+width:auto;
+text-align:left;
+margin:0;
+background-repeat:no-repeat;
+background-position:257px 16px;
+}
+
+.blocks label.ok {
+	margin-top:10px;
+	background-image:url(../images/icook.gif);
+	background-color:#deefca;
+	color:#577530;
+}
+
+.blocks label.error {
+	margin-top:10px;
+	background-image:url(../images/icofail.gif);
+	background-color:#f5d6d7;
+	color:#c81925;
+}
+
+.area label.ok,
+.area label.error {
+height:163px;
+padding-left:410px;
+background-position:387px 16px;
+}
+
+/* CSS3 */
+.btn1,
+.text,
+.textarea,
+.blocks label.error,
+.blocks label.ok { 
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+border-radius:8px;
+}
+
+
+a img {
+border:none;
+}
+.options{
+	list-style-type: disc;
+}
+.ptions li{
+ 	color: red;
+}
+.options .success{
+	color:green;
+}
+.options .warning{
+	color:orange;
+}

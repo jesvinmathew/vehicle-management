@@ -1,0 +1,53 @@
+.ul{
+    min-width: 50px;
+    float:left;
+    position: relative;
+    z-index: 400;
+    background:url(../images/menu_bg.jpg) repeat;
+    font-family: 'Play', sans-serif;
+    margin: 10px 0 10px 0;
+}
+.li{
+    position :absolute;
+    display: none;
+    left: 0;
+    z-index: 999;
+    width:200px;
+    padding-top: 0px;   
+    top: 40px;
+    padding-bottom: 0px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.ultop{
+    height:50px;
+    background-color: #616161;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background:url(../images/menu_sep.jpg) no-repeat right;
+   
+}
+
+.ultop a{
+    color:#000;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0px 10px 0px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.ultop a:hover{
+    color: #000000;
+}
+.ultop:hover{
+    background-color: #a6a6a6;
+    border-radius: 5px;
+	background: -webkit-linear-gradient(#6e6e6e,#858585); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#6e6e6e,#858585); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#6e6e6e,#858585); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#6e6e6e,#858585); /* Standard syntax */
+}

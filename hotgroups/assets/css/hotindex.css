@@ -1,0 +1,13 @@
+#post{
+    color: #fff;
+}
+#post li{
+    list-style: none;
+}
+.post_submit{
+    background: none;
+    border: none;
+    width:78px;
+    height:79px;
+    background: url('../images/submit.png') no-repeat;
+}

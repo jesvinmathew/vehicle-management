@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Play);
+body {
+    position: relative;
+    background-color: #fff;
+    padding-top: 52px;
+    color: #686868;
+    font: 12px/21px 'Roboto', sans-serif;
+}
+
+.main{
+    box-shadow: 0 0 43px rgba(0,0,0,0.18);
+}
+
+.content{
+    background: #ccc;
+}
+
+.twitter{
+   background: url('../images/s_icon2.png') no-repeat;
+}
+.facebook{
+    background: url('../images/s_icon3.png') no-repeat;
+}
+.rss{
+    background: url('../images/s_icon1.png') no-repeat;
+}
+.linkdin{
+    background: url('../images/s_icon4.png') no-repeat;
+}
+.twitter:hover{
+   background: url('../images/s_icon2_hover.png') no-repeat;
+}
+.facebook:hover{
+    background: url('../images/s_icon3_hover.png') no-repeat;
+}
+.rss:hover{
+    background: url('../images/s_icon1_hover.png') no-repeat;
+}
+.linkdin:hover{
+    background: url('../images/s_icon4_hover.png') no-repeat;
+}
+.social { 
+    margin: 20px 0px 20px 0px;
+}
+.logo{
+    margin: 10px 0px 10px 0px;
+}
+.whiteBox1{
+    background:#fff;
+    color: #000;
+    border-radius: 5px;
+}
+.grborder{
+    border-radius: 5px;
+    border: solid #b9b8b8 1px;
+}

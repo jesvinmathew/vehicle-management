@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Play);
+.page{
+    background: url('../images/bg.png') repeat;
+}
+.main{
+    background: rgba(3, 3, 3, 0.3);
+    font-family: 'Play', sans-serif;
+}
+.twitter{
+   background: url('../images/s_icon2.png') no-repeat;
+}
+.facebook{
+    background: url('../images/s_icon3.png') no-repeat;
+}
+.rss{
+    background: url('../images/s_icon1.png') no-repeat;
+}
+.linkdin{
+    background: url('../images/s_icon4.png') no-repeat;
+}
+.twitter:hover{
+   background: url('../images/s_icon2_hover.png') no-repeat;
+}
+.facebook:hover{
+    background: url('../images/s_icon3_hover.png') no-repeat;
+}
+.rss:hover{
+    background: url('../images/s_icon1_hover.png') no-repeat;
+}
+.linkdin:hover{
+    background: url('../images/s_icon4_hover.png') no-repeat;
+}
+.social { 
+    margin: 20px 0px 20px 0px;
+}
+.logo{
+    margin: 10px 0px 10px 0px;
+}
